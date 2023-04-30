@@ -17,7 +17,7 @@
   };
 
   ext.applySineDistortion = function() {
-    var data = stage.canvas.getContext('2d').getImageData(0, 0, 480, 360);
+    var data = stage.canvas.getContext('2d').getImageData(0, 0, 640, 480);
     var pixels = data.data;
     var length = pixels.length;
     var width = data.width;
